@@ -1,5 +1,6 @@
 class Ground 
 {
+  //Constructor
   constructor(x, y, w, h) 
   {
     let options = {
@@ -11,7 +12,8 @@ class Ground
     this.h = h;
     World.add(world, this.body);
   }
-  
+
+  //Función show
 
  
    
